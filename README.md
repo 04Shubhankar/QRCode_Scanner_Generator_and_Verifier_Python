@@ -64,5 +64,5 @@ git clone https://github.com/yourusername/QRCode_Scanner_Generator.git
 
 
 
-###Feel free to fork the repository and submit pull requests if you'd like to contribute. Any improvements, bug fixes, or new features are always welcome. If you encounter any issues or have feature requests, please open an issue in the GitHub repository.
+#### Feel free to fork the repository and submit pull requests if you'd like to contribute. Any improvements, bug fixes, or new features are always welcome. If you encounter any issues or have feature requests, please open an issue in the GitHub repository.
 
