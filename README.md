@@ -28,16 +28,16 @@ This app uses the following technologies:
 ##Modules Used
 This app makes use of the following Python modules:
 
--tkinter: For building the graphical user interface (GUI).
--Pillow (PIL): For handling image files, particularly in creating and displaying QR codes.
--opencv-python: For QR code scanning using a webcam.
--qrcode: For generating QR codes from input data.
--csv: For reading and writing CSV files containing the data.
--datetime: For managing time-related functionalities.
--scanflag: A custom module used for managing scanning flags during the QR code scanning process.
--mylogger: A custom logging module that tracks activities and errors in the app.
--time: For managing timing-related tasks and introducing delays where necessary.
--filedialog: A module used to open file dialogs to select files (e.g., CSV files).
+- tkinter: For building the graphical user interface (GUI).
+- Pillow (PIL): For handling image files, particularly in creating and displaying QR codes.
+- opencv-python: For QR code scanning using a webcam.
+- qrcode: For generating QR codes from input data.
+- csv: For reading and writing CSV files containing the data.
+- datetime: For managing time-related functionalities.
+- scanflag: A custom module used for managing scanning flags during the QR code scanning process.
+- mylogger: A custom logging module that tracks activities and errors in the app.
+- time: For managing timing-related tasks and introducing delays where necessary.
+- filedialog: A module used to open file dialogs to select files (e.g., CSV files).
 
 ## Installation
 
