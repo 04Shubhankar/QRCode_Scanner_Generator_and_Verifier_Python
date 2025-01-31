@@ -63,3 +63,6 @@ git clone https://github.com/yourusername/QRCode_Scanner_Generator.git
 - When a QR code is scanned, the app will compare the scanned data with the corresponding data in the loaded CSV file. It will display whether the scanned QR code’s data matches the entry in the CSV file.
 
 
+
+####Feel free to fork the repository and submit pull requests if you'd like to contribute. Any improvements, bug fixes, or new features are always welcome. If you encounter any issues or have feature requests, please open an issue in the GitHub repository.
+
