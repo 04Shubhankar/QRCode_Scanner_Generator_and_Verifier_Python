@@ -47,3 +47,19 @@ Follow the steps below to install and run the app on your local machine:
 Clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/yourusername/QRCode_Scanner_Generator.git
+```
+## How to Use
+
+### Step 1: Load CSV File
+- Click the **"Load CSV"** button to select and load a CSV file into the app. The contents of the CSV will be displayed in the application window.
+
+### Step 2: Generate QR Codes
+- After loading the CSV file, click the **"Generate QR Codes"** button. The app will create QR codes for each row in the CSV file and display them in the window.
+
+### Step 3: Scan QR Codes
+- To scan a QR code, click the **"Scan QR Code"** button and enter name of column where results have to be stored. The app will activate the webcam, allowing you to scan a QR code. Once scanned, the app will decode and display the information from the QR code.
+
+### Step 4: Info Verification
+- When a QR code is scanned, the app will compare the scanned data with the corresponding data in the loaded CSV file. It will display whether the scanned QR code’s data matches the entry in the CSV file.
+
+
