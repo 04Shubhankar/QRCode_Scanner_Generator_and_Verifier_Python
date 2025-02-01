@@ -138,9 +138,11 @@ def scan_qr():
         colname_entry = tk.Entry(colname_frame, width=20)
         colname_entry.pack(side=tk.LEFT, padx=5)
 
+        def stop_qr_scanning():
+            cam_frame.destroy()
+
         def start_qr_scanning():
             colname = colname_entry.get()
-            colname_frame.destroy()
             if not colname:
                 label = tk.Label(csv_frame, text="Please Enter a Valid Name", bg="white", fg="Red", font=("Arial", 14), bd=2, relief="solid", highlightbackground="blue", highlightthickness=3)
                 label.pack()
@@ -166,6 +168,15 @@ def scan_qr():
             font=("Helvetica", 10, "bold"),
         )
         submit_button.pack(side=tk.LEFT, padx=5)
+
+        stop_button = tk.Button(
+            colname_frame,
+            text="Stop Scanning",
+            command=stop_qr_scanning,
+            bg="white",
+            font=("Helvetica", 10, "bold"),
+        )
+        stop_button.pack(side=tk.LEFT, padx=5)
 
 
 # Initialize the main Tkinter window
@@ -299,5 +310,3 @@ tree.configure(yscrollcommand=v_scrollbar.set, xscrollcommand=h_scrollbar.set)
 tree.pack(fill=tk.BOTH, expand=True)
 # Run the application
 root.mainloop()
-
-

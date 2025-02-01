@@ -1,2 +1,102 @@
 2025-02-01 00:39:14,109 mylogger INFO App.py_Started
 2025-02-01 00:39:14,110 mylogger INFO ------------------------
+2025-02-01 10:23:35,181 mylogger INFO App.py_Started
+2025-02-01 10:23:35,181 mylogger INFO ------------------------
+2025-02-01 10:23:43,804 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:23:43,804 mylogger INFO ------------------------
+2025-02-01 10:23:43,804 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:23:43,805 mylogger INFO ------------------------
+2025-02-01 10:23:43,815 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:23:43,815 mylogger INFO ------------------------
+2025-02-01 10:23:49,577 mylogger INFO Submit_Pressed_To_Start_Scanning
+2025-02-01 10:23:49,577 mylogger INFO ------------------------
+2025-02-01 10:23:49,577 mylogger INFO Starting QR scan with column name: New
+2025-02-01 10:23:49,577 mylogger INFO ------------------------
+2025-02-01 10:25:39,291 mylogger INFO App.py_Started
+2025-02-01 10:25:39,291 mylogger INFO ------------------------
+2025-02-01 10:25:42,648 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:42,649 mylogger INFO ------------------------
+2025-02-01 10:25:42,649 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:42,649 mylogger INFO ------------------------
+2025-02-01 10:25:47,508 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:47,508 mylogger INFO ------------------------
+2025-02-01 10:25:47,508 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:47,508 mylogger INFO ------------------------
+2025-02-01 10:25:47,510 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:47,511 mylogger INFO ------------------------
+2025-02-01 10:25:50,445 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:50,445 mylogger INFO ------------------------
+2025-02-01 10:25:50,445 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:50,445 mylogger INFO ------------------------
+2025-02-01 10:25:50,446 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:25:50,447 mylogger INFO ------------------------
+2025-02-01 10:27:36,880 mylogger INFO App.py_Started
+2025-02-01 10:27:36,881 mylogger INFO ------------------------
+2025-02-01 10:27:40,273 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:27:40,273 mylogger INFO ------------------------
+2025-02-01 10:27:40,273 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:27:40,273 mylogger INFO ------------------------
+2025-02-01 10:27:40,282 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:27:40,282 mylogger INFO ------------------------
+2025-02-01 10:28:06,259 mylogger INFO App.py_Started
+2025-02-01 10:28:06,259 mylogger INFO ------------------------
+2025-02-01 10:28:10,227 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:28:10,227 mylogger INFO ------------------------
+2025-02-01 10:28:10,227 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:28:10,228 mylogger INFO ------------------------
+2025-02-01 10:28:10,229 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:28:10,229 mylogger INFO ------------------------
+2025-02-01 10:28:46,035 mylogger INFO App.py_Started
+2025-02-01 10:28:46,035 mylogger INFO ------------------------
+2025-02-01 10:28:55,254 mylogger INFO App.py_Started
+2025-02-01 10:28:55,254 mylogger INFO ------------------------
+2025-02-01 10:28:58,976 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:28:58,976 mylogger INFO ------------------------
+2025-02-01 10:28:58,976 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:28:58,976 mylogger INFO ------------------------
+2025-02-01 10:28:58,977 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:28:58,977 mylogger INFO ------------------------
+2025-02-01 10:29:04,318 mylogger INFO Submit_Pressed_To_Start_Scanning
+2025-02-01 10:29:04,318 mylogger INFO ------------------------
+2025-02-01 10:29:04,318 mylogger INFO Starting QR scan with column name: new
+2025-02-01 10:29:04,318 mylogger INFO ------------------------
+2025-02-01 10:29:05,284 mylogger INFO Submit_Pressed_To_Start_Scanning
+2025-02-01 10:29:05,285 mylogger INFO ------------------------
+2025-02-01 10:29:05,285 mylogger INFO Starting QR scan with column name: new
+2025-02-01 10:29:05,285 mylogger INFO ------------------------
+2025-02-01 10:30:38,853 mylogger INFO App.py_Started
+2025-02-01 10:30:38,853 mylogger INFO ------------------------
+2025-02-01 10:30:42,227 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:30:42,227 mylogger INFO ------------------------
+2025-02-01 10:30:42,227 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:30:42,227 mylogger INFO ------------------------
+2025-02-01 10:30:42,229 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:30:42,229 mylogger INFO ------------------------
+2025-02-01 10:30:45,346 mylogger INFO Submit_Pressed_To_Start_Scanning
+2025-02-01 10:30:45,346 mylogger INFO ------------------------
+2025-02-01 10:30:45,346 mylogger INFO Starting QR scan with column name: New
+2025-02-01 10:30:45,346 mylogger INFO ------------------------
+2025-02-01 10:32:23,693 mylogger INFO App.py_Started
+2025-02-01 10:32:23,693 mylogger INFO ------------------------
+2025-02-01 10:32:27,742 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:32:27,742 mylogger INFO ------------------------
+2025-02-01 10:32:27,742 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:32:27,742 mylogger INFO ------------------------
+2025-02-01 10:32:27,743 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:32:27,743 mylogger INFO ------------------------
+2025-02-01 10:32:58,450 mylogger INFO App.py_Started
+2025-02-01 10:32:58,450 mylogger INFO ------------------------
+2025-02-01 10:33:04,273 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:33:04,273 mylogger INFO ------------------------
+2025-02-01 10:33:04,273 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:33:04,273 mylogger INFO ------------------------
+2025-02-01 10:33:06,117 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:33:06,117 mylogger INFO ------------------------
+2025-02-01 10:33:06,117 mylogger INFO Displayed File,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:33:06,117 mylogger INFO ------------------------
+2025-02-01 10:33:06,118 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/System Files/Downloads/SampleData.csv
+2025-02-01 10:33:06,118 mylogger INFO ------------------------
+2025-02-01 10:33:13,661 mylogger INFO Submit_Pressed_To_Start_Scanning
+2025-02-01 10:33:13,661 mylogger INFO ------------------------
+2025-02-01 10:33:13,661 mylogger INFO Starting QR scan with column name: Start
+2025-02-01 10:33:13,661 mylogger INFO ------------------------
