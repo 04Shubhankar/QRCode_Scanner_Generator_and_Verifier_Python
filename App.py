@@ -16,6 +16,9 @@ mylogger.logger("App.py_Started")
 selected_file_path = ""  # Stores the selected file path
 file_label = None  # Label to display the selected file path
 spinbox = False  # Track whether spinboxes are created
+qrscanner = None  # Variable to store the QRSCANNER object for stopping it later
+colname_frame = None  # Initialize the colname_frame here
+
 
 def file_selector():
     """Opens a file dialog to select a CSV file."""
@@ -118,7 +121,7 @@ def scan_qr():
     global selected_file_path, colname_frame
 
     # Destroy previous frame if it exists to avoid duplicates
-    if 'colname_frame' in globals() and colname_frame.winfo_exists():
+    if colname_frame and colname_frame.winfo_exists():
         colname_frame.destroy()
 
     # Force file selection every time scan_qr is called
@@ -126,6 +129,7 @@ def scan_qr():
 
     if selected_file_path:
         mylogger.logger("scan_qr_Button_Pressed,Select_Path-->"+selected_file_path)
+        
         # Create a new frame for colname input and button
         colname_frame = tk.Frame(root)
         colname_frame.pack(pady=10)
@@ -139,7 +143,16 @@ def scan_qr():
         colname_entry.pack(side=tk.LEFT, padx=5)
 
         def stop_qr_scanning():
-            cam_frame.destroy()
+            """Stops the camera and releases resources."""
+            global qrscanner
+            if qrscanner:  # Check if the scanner exists
+                qrscanner.stop_scanning()  # Call the stop_scanning method of the QRSCANNER class
+            cv2.destroyAllWindows()  # Ensure all OpenCV windows are destroyed
+            if cam_frame.winfo_exists():  # Only destroy cam_frame if it exists
+                cam_frame.destroy()
+            mylogger.logger("Camera stopped and resources released.")
+            stop_button.config(state="disabled")  # Disable the stop button after stopping the scan
+            submit_button.config(state="disabled")
 
         def start_qr_scanning():
             colname = colname_entry.get()
@@ -154,12 +167,16 @@ def scan_qr():
             mylogger.logger(f"Starting QR scan with column name: {colname}")
             label = tk.Label(bulb_frame, text="Scanner Ready", bg="white", fg="black", font=("Arial", 14), bd=2, relief="solid", highlightbackground="blue", highlightthickness=3)
             label.pack(side=tk.LEFT, padx=5)
-            qrscanner = QR_Scanner.QRSCANNER("T.E.C MBS2025", selected_file_path, 1, colname,cam_frame,bulb_frame)  # Pass colname
-            qrscanner.start_scanning("T.E.C MBS2025",cam_frame)
+            global qrscanner  # Make qrscanner global so it can be accessed in stop_qr_scanning
+            qrscanner = QR_Scanner.QRSCANNER("T.E.C MBS2025", selected_file_path, 1, colname, cam_frame, bulb_frame)  # Pass colname
+            qrscanner.start_scanning("T.E.C MBS2025", cam_frame)
 
+            stop_button.config(state="normal")  # Enable the stop button after starting the scan
+            submit_button.config(state="disabled")
 
 
         # Button to submit colname and start scanning
+        global submit_button
         submit_button = tk.Button(
             colname_frame,
             text="Start Scanning",
@@ -169,12 +186,14 @@ def scan_qr():
         )
         submit_button.pack(side=tk.LEFT, padx=5)
 
+        global stop_button
         stop_button = tk.Button(
             colname_frame,
             text="Stop Scanning",
             command=stop_qr_scanning,
             bg="white",
             font=("Helvetica", 10, "bold"),
+            state="disabled"  # Initially disable the stop button
         )
         stop_button.pack(side=tk.LEFT, padx=5)
 

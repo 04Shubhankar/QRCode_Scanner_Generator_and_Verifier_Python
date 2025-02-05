@@ -1,4 +1,4 @@
-DATE,NAME,SALES,REGION,New ,New  Timestamp,Laptop,Laptop Timestamp,Yellow,Yellow Timestamp
+DATE,NAME,SALES,REGION
 01-12-2023 00:00,Alice,3463,West
 02-12-2023 00:00,Person2,4733,South
 28-11-2023 00:00,Alice,2866,North
@@ -14,10 +14,10 @@ DATE,NAME,SALES,REGION,New ,New  Timestamp,Laptop,Laptop Timestamp,Yellow,Yellow
 24-11-2023 00:00,Person3,3186,North
 28-11-2023 00:00,Person4,1709,South
 24-11-2023 00:00,Alice,4514,East
-28-11-2023 00:00,Bob,3250,West,OK,10:47:00 2025-02-01
-02-12-2023 00:00,Bob,4297,South,OK,10:46:54 2025-02-01
+28-11-2023 00:00,Bob,3250,West
+02-12-2023 00:00,Bob,4297,South
 24-11-2023 00:00,Person2,4891,North
-29-11-2023 00:00,Bob,1437,East,,,OK,18:33:48 2025-02-05,OK,21:46:28 2025-02-05
+29-11-2023 00:00,Bob,1437,East
 01-12-2023 00:00,Person4,1742,North
 24-11-2023 00:00,Bob,5183,East
 28-11-2023 00:00,Person4,4691,West
@@ -46,4 +46,4 @@ DATE,NAME,SALES,REGION,New ,New  Timestamp,Laptop,Laptop Timestamp,Yellow,Yellow
 24-11-2023 00:00,Alice,5389,South
 30-11-2023 00:00,Kam,3180,West
 24-11-2023 00:00,Alice,2349,North
-30-11-2023 00:00,Bob,4301,South,,,OK,18:33:54 2025-02-05
+30-11-2023 00:00,Bob,4301,South
