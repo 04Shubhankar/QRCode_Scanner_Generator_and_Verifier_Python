@@ -31,7 +31,7 @@ class QRSCANNER:
         mylogger.logger(f"Processing QR code: {qr_code_data}")
         updater = update.UPDATE(self.filename)
         updater.validate(qr_code_data, self.colname, self.tk_frame_bulb)  # Use self.colname
-        time.sleep(0.2)  # Wait for 0.2 seconds before continuing to the next QR code scan
+        time.sleep(0.5)  # Wait for 0.2 seconds before continuing to the next QR code scan
 
     def start_scanning(self, window_name, tk_frame, width=150, height=150):
         """Starts the QR code scanning process."""

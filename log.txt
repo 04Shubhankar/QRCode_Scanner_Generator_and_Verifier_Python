@@ -1,0 +1,148 @@
+2025-02-06 14:53:30,383 mylogger INFO App.py_Started
+2025-02-06 14:53:30,384 mylogger INFO ------------------------
+2025-02-06 14:53:38,805 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv
+2025-02-06 14:53:38,805 mylogger INFO ------------------------
+2025-02-06 14:53:38,805 mylogger INFO Displayed File,Select_Path-->F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv
+2025-02-06 14:53:38,806 mylogger INFO ------------------------
+2025-02-06 14:53:38,806 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv
+2025-02-06 14:53:38,806 mylogger INFO ------------------------
+2025-02-06 14:53:45,517 mylogger INFO Submit_Pressed_To_Start_Scanning
+2025-02-06 14:53:45,529 mylogger INFO ------------------------
+2025-02-06 14:53:45,529 mylogger INFO Starting QR scan with column name: Neww
+2025-02-06 14:53:45,529 mylogger INFO ------------------------
+2025-02-06 14:54:03,280 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:03,280 mylogger INFO ------------------------
+2025-02-06 14:54:03,280 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:03,280 mylogger INFO ------------------------
+2025-02-06 14:54:03,282 mylogger INFO QrCode Found
+2025-02-06 14:54:03,282 mylogger INFO ------------------------
+2025-02-06 14:54:03,282 mylogger INFO CSV File Updated  : [['DATE', 'NAME', 'SALES', 'REGION', 'New ', 'New  Timestamp', 'Laptop', 'Laptop Timestamp', 'Yellow', 'Yellow Timestamp', 'Neww', 'Neww Timestamp'], ['01-12-2023 00:00', 'Alice', '3463', 'West'], ['02-12-2023 00:00', 'Person2', '4733', 'South'], ['28-11-2023 00:00', 'Alice', '2866', 'North'], ['26-11-2023 00:00', 'Kam', '3842', 'East'], ['29-11-2023 00:00', 'Person4', '5299', 'North'], ['26-11-2023 00:00', 'Person2', '2587', 'North'], ['03-12-2023 00:00', 'Person2', '2171', 'North'], ['04-12-2023 00:00', 'Kam', '1832', 'North'], ['26-11-2023 00:00', 'Person3', '4113', 'North'], ['26-11-2023 00:00', 'Person2', '4041', 'North'], ['24-11-2023 00:00', 'Ram', '1393', 'North'], ['29-11-2023 00:00', 'Person2', '3442', 'West'], ['24-11-2023 00:00', 'Person3', '3186', 'North'], ['28-11-2023 00:00', 'Person4', '1709', 'South'], ['24-11-2023 00:00', 'Alice', '4514', 'East'], ['28-11-2023 00:00', 'Bob', '3250', 'West', 'OK', '10:47:00 2025-02-01'], ['02-12-2023 00:00', 'Bob', '4297', 'South', 'OK', '10:46:54 2025-02-01'], ['24-11-2023 00:00', 'Person2', '4891', 'North'], ['29-11-2023 00:00', 'Bob', '1437', 'East', '', '', 'OK', '18:33:48 2025-02-05', 'OK', '21:46:28 2025-02-05'], ['01-12-2023 00:00', 'Person4', '1742', 'North'], ['24-11-2023 00:00', 'Bob', '5183', 'East'], ['28-11-2023 00:00', 'Person4', '4691', 'West'], ['25-11-2023 00:00', 'Alice', '2289', 'South'], ['28-11-2023 00:00', 'Person3', '2718', 'South'], ['03-12-2023 00:00', 'Person2', '3330', 'South'], ['30-11-2023 00:00', 'Person2', '2004', 'East'], ['24-11-2023 00:00', 'Person3', '4634', 'North'], ['24-11-2023 00:00', 'Person4', '5791', 'West'], ['26-11-2023 00:00', 'Person3', '1934', 'East'], ['03-12-2023 00:00', 'Person1', '3077', 'West'], ['02-12-2023 00:00', 'Ram', '2139', 'West'], ['29-11-2023 00:00', 'Kam', '1426', 'South'], ['29-11-2023 00:00', 'Kam', '1979', 'South'], ['28-11-2023 00:00', 'Person3', '2270', 'West'], ['25-11-2023 00:00', 'Person3', '4918', 'South'], ['27-11-2023 00:00', 'Bob', '3419', 'East'], ['29-11-2023 00:00', 'Person4', '4858', 'West'], ['02-12-2023 00:00', 'Ram', '1438', 'North'], ['04-12-2023 00:00', 'Alice', '2323', 'North'], ['02-12-2023 00:00', 'Kam', '1793', 'West'], ['29-11-2023 00:00', 'Person3', '4036', 'East'], ['30-11-2023 00:00', 'Person4', '2045', 'West'], ['24-11-2023 00:00', 'Person1', '4970', 'South'], ['26-11-2023 00:00', 'Person3', '3998', 'East'], ['24-11-2023 00:00', 'Alice', '5389', 'South'], ['30-11-2023 00:00', 'Kam', '3180', 'West'], ['24-11-2023 00:00', 'Alice', '2349', 'North'], ['30-11-2023 00:00', 'Bob', '4301', 'South', '', '', 'OK', '18:33:54 2025-02-05', '', '', 'OK', '14:54:03 2025-02-06']] : <_io.TextIOWrapper name='F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv' mode='w' encoding='cp1252'>
+2025-02-06 14:54:03,282 mylogger INFO ------------------------
+2025-02-06 14:54:03,284 mylogger INFO ScanFlag-->Green
+2025-02-06 14:54:03,284 mylogger INFO ------------------------
+2025-02-06 14:54:03,521 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:03,521 mylogger INFO ------------------------
+2025-02-06 14:54:03,521 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:03,521 mylogger INFO ------------------------
+2025-02-06 14:54:03,523 mylogger INFO QrCode Already Scanned
+2025-02-06 14:54:03,523 mylogger INFO ------------------------
+2025-02-06 14:54:03,526 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:54:03,526 mylogger INFO ------------------------
+2025-02-06 14:54:05,950 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:05,950 mylogger INFO ------------------------
+2025-02-06 14:54:05,950 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:05,950 mylogger INFO ------------------------
+2025-02-06 14:54:05,951 mylogger INFO QrCode Already Scanned
+2025-02-06 14:54:05,951 mylogger INFO ------------------------
+2025-02-06 14:54:05,953 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:54:05,953 mylogger INFO ------------------------
+2025-02-06 14:54:06,210 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:06,210 mylogger INFO ------------------------
+2025-02-06 14:54:06,210 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:06,210 mylogger INFO ------------------------
+2025-02-06 14:54:06,213 mylogger INFO QrCode Already Scanned
+2025-02-06 14:54:06,213 mylogger INFO ------------------------
+2025-02-06 14:54:06,217 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:54:06,217 mylogger INFO ------------------------
+2025-02-06 14:54:06,476 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:06,476 mylogger INFO ------------------------
+2025-02-06 14:54:06,476 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:06,476 mylogger INFO ------------------------
+2025-02-06 14:54:06,479 mylogger INFO QrCode Already Scanned
+2025-02-06 14:54:06,479 mylogger INFO ------------------------
+2025-02-06 14:54:06,483 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:54:06,483 mylogger INFO ------------------------
+2025-02-06 14:54:09,509 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:09,509 mylogger INFO ------------------------
+2025-02-06 14:54:09,509 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:54:09,509 mylogger INFO ------------------------
+2025-02-06 14:54:09,511 mylogger INFO QrCode Already Scanned
+2025-02-06 14:54:09,511 mylogger INFO ------------------------
+2025-02-06 14:54:09,512 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:54:09,513 mylogger INFO ------------------------
+2025-02-06 14:54:13,947 mylogger INFO QR Code detected: 02-12-2023 00:00Bob4297South
+2025-02-06 14:54:13,947 mylogger INFO ------------------------
+2025-02-06 14:54:13,947 mylogger INFO Processing QR code: 02-12-2023 00:00Bob4297South
+2025-02-06 14:54:13,947 mylogger INFO ------------------------
+2025-02-06 14:54:13,950 mylogger INFO ScanFlag-->Red
+2025-02-06 14:54:13,950 mylogger INFO ------------------------
+2025-02-06 14:54:14,277 mylogger INFO QR Code detected: 02-12-2023 00:00Bob4297South
+2025-02-06 14:54:14,277 mylogger INFO ------------------------
+2025-02-06 14:54:14,277 mylogger INFO Processing QR code: 02-12-2023 00:00Bob4297South
+2025-02-06 14:54:14,277 mylogger INFO ------------------------
+2025-02-06 14:54:14,280 mylogger INFO ScanFlag-->Red
+2025-02-06 14:54:14,280 mylogger INFO ------------------------
+2025-02-06 14:54:18,365 mylogger INFO Camera stopped and resources released.
+2025-02-06 14:54:18,365 mylogger INFO ------------------------
+2025-02-06 14:54:18,368 mylogger INFO Camera stopped and resources released.
+2025-02-06 14:54:18,368 mylogger INFO ------------------------
+2025-02-06 14:55:50,801 mylogger INFO App.py_Started
+2025-02-06 14:55:50,801 mylogger INFO ------------------------
+2025-02-06 14:55:59,304 mylogger INFO FileSelection_Button_Pressed,Select_Path-->F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv
+2025-02-06 14:55:59,305 mylogger INFO ------------------------
+2025-02-06 14:55:59,305 mylogger INFO Displayed File,Select_Path-->F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv
+2025-02-06 14:55:59,305 mylogger INFO ------------------------
+2025-02-06 14:55:59,306 mylogger INFO scan_qr_Button_Pressed,Select_Path-->F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv
+2025-02-06 14:55:59,306 mylogger INFO ------------------------
+2025-02-06 14:56:05,061 mylogger INFO Submit_Pressed_To_Start_Scanning
+2025-02-06 14:56:05,061 mylogger INFO ------------------------
+2025-02-06 14:56:05,061 mylogger INFO Starting QR scan with column name: Test
+2025-02-06 14:56:05,061 mylogger INFO ------------------------
+2025-02-06 14:56:17,187 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:17,187 mylogger INFO ------------------------
+2025-02-06 14:56:17,187 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:17,187 mylogger INFO ------------------------
+2025-02-06 14:56:17,188 mylogger INFO QrCode Found
+2025-02-06 14:56:17,188 mylogger INFO ------------------------
+2025-02-06 14:56:17,189 mylogger INFO CSV File Updated  : [['DATE', 'NAME', 'SALES', 'REGION', 'New ', 'New  Timestamp', 'Laptop', 'Laptop Timestamp', 'Yellow', 'Yellow Timestamp', 'Neww', 'Neww Timestamp', 'Test', 'Test Timestamp'], ['01-12-2023 00:00', 'Alice', '3463', 'West'], ['02-12-2023 00:00', 'Person2', '4733', 'South'], ['28-11-2023 00:00', 'Alice', '2866', 'North'], ['26-11-2023 00:00', 'Kam', '3842', 'East'], ['29-11-2023 00:00', 'Person4', '5299', 'North'], ['26-11-2023 00:00', 'Person2', '2587', 'North'], ['03-12-2023 00:00', 'Person2', '2171', 'North'], ['04-12-2023 00:00', 'Kam', '1832', 'North'], ['26-11-2023 00:00', 'Person3', '4113', 'North'], ['26-11-2023 00:00', 'Person2', '4041', 'North'], ['24-11-2023 00:00', 'Ram', '1393', 'North'], ['29-11-2023 00:00', 'Person2', '3442', 'West'], ['24-11-2023 00:00', 'Person3', '3186', 'North'], ['28-11-2023 00:00', 'Person4', '1709', 'South'], ['24-11-2023 00:00', 'Alice', '4514', 'East'], ['28-11-2023 00:00', 'Bob', '3250', 'West', 'OK', '10:47:00 2025-02-01'], ['02-12-2023 00:00', 'Bob', '4297', 'South', 'OK', '10:46:54 2025-02-01'], ['24-11-2023 00:00', 'Person2', '4891', 'North'], ['29-11-2023 00:00', 'Bob', '1437', 'East', '', '', 'OK', '18:33:48 2025-02-05', 'OK', '21:46:28 2025-02-05'], ['01-12-2023 00:00', 'Person4', '1742', 'North'], ['24-11-2023 00:00', 'Bob', '5183', 'East'], ['28-11-2023 00:00', 'Person4', '4691', 'West'], ['25-11-2023 00:00', 'Alice', '2289', 'South'], ['28-11-2023 00:00', 'Person3', '2718', 'South'], ['03-12-2023 00:00', 'Person2', '3330', 'South'], ['30-11-2023 00:00', 'Person2', '2004', 'East'], ['24-11-2023 00:00', 'Person3', '4634', 'North'], ['24-11-2023 00:00', 'Person4', '5791', 'West'], ['26-11-2023 00:00', 'Person3', '1934', 'East'], ['03-12-2023 00:00', 'Person1', '3077', 'West'], ['02-12-2023 00:00', 'Ram', '2139', 'West'], ['29-11-2023 00:00', 'Kam', '1426', 'South'], ['29-11-2023 00:00', 'Kam', '1979', 'South'], ['28-11-2023 00:00', 'Person3', '2270', 'West'], ['25-11-2023 00:00', 'Person3', '4918', 'South'], ['27-11-2023 00:00', 'Bob', '3419', 'East'], ['29-11-2023 00:00', 'Person4', '4858', 'West'], ['02-12-2023 00:00', 'Ram', '1438', 'North'], ['04-12-2023 00:00', 'Alice', '2323', 'North'], ['02-12-2023 00:00', 'Kam', '1793', 'West'], ['29-11-2023 00:00', 'Person3', '4036', 'East'], ['30-11-2023 00:00', 'Person4', '2045', 'West'], ['24-11-2023 00:00', 'Person1', '4970', 'South'], ['26-11-2023 00:00', 'Person3', '3998', 'East'], ['24-11-2023 00:00', 'Alice', '5389', 'South'], ['30-11-2023 00:00', 'Kam', '3180', 'West'], ['24-11-2023 00:00', 'Alice', '2349', 'North'], ['30-11-2023 00:00', 'Bob', '4301', 'South', '', '', 'OK', '18:33:54 2025-02-05', '', '', 'OK', '14:54:03 2025-02-06', 'OK', '14:56:17 2025-02-06']] : <_io.TextIOWrapper name='F:/QRCode_Scanner_Generator_and_Verifier_Python/Entry.csv' mode='w' encoding='cp1252'>
+2025-02-06 14:56:17,189 mylogger INFO ------------------------
+2025-02-06 14:56:17,191 mylogger INFO ScanFlag-->Green
+2025-02-06 14:56:17,191 mylogger INFO ------------------------
+2025-02-06 14:56:21,994 mylogger INFO QR Code detected: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:21,994 mylogger INFO ------------------------
+2025-02-06 14:56:21,994 mylogger INFO Processing QR code: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:21,995 mylogger INFO ------------------------
+2025-02-06 14:56:21,998 mylogger INFO ScanFlag-->Red
+2025-02-06 14:56:21,998 mylogger INFO ------------------------
+2025-02-06 14:56:22,528 mylogger INFO QR Code detected: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:22,528 mylogger INFO ------------------------
+2025-02-06 14:56:22,528 mylogger INFO Processing QR code: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:22,528 mylogger INFO ------------------------
+2025-02-06 14:56:22,531 mylogger INFO ScanFlag-->Red
+2025-02-06 14:56:22,531 mylogger INFO ------------------------
+2025-02-06 14:56:26,051 mylogger INFO QR Code detected: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:26,051 mylogger INFO ------------------------
+2025-02-06 14:56:26,051 mylogger INFO Processing QR code: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:26,051 mylogger INFO ------------------------
+2025-02-06 14:56:26,054 mylogger INFO ScanFlag-->Red
+2025-02-06 14:56:26,054 mylogger INFO ------------------------
+2025-02-06 14:56:26,593 mylogger INFO QR Code detected: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:26,593 mylogger INFO ------------------------
+2025-02-06 14:56:26,593 mylogger INFO Processing QR code: 02-12-2023 00:00Bob4297South
+2025-02-06 14:56:26,593 mylogger INFO ------------------------
+2025-02-06 14:56:26,597 mylogger INFO ScanFlag-->Red
+2025-02-06 14:56:26,597 mylogger INFO ------------------------
+2025-02-06 14:56:31,711 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:31,711 mylogger INFO ------------------------
+2025-02-06 14:56:31,711 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:31,711 mylogger INFO ------------------------
+2025-02-06 14:56:31,713 mylogger INFO QrCode Already Scanned
+2025-02-06 14:56:31,713 mylogger INFO ------------------------
+2025-02-06 14:56:31,715 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:56:31,715 mylogger INFO ------------------------
+2025-02-06 14:56:32,280 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:32,280 mylogger INFO ------------------------
+2025-02-06 14:56:32,281 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:32,281 mylogger INFO ------------------------
+2025-02-06 14:56:32,282 mylogger INFO QrCode Already Scanned
+2025-02-06 14:56:32,282 mylogger INFO ------------------------
+2025-02-06 14:56:32,284 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:56:32,285 mylogger INFO ------------------------
+2025-02-06 14:56:39,921 mylogger INFO QR Code detected: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:39,921 mylogger INFO ------------------------
+2025-02-06 14:56:39,921 mylogger INFO Processing QR code: 30-11-2023 00:00Bob4301South
+2025-02-06 14:56:39,921 mylogger INFO ------------------------
+2025-02-06 14:56:39,923 mylogger INFO QrCode Already Scanned
+2025-02-06 14:56:39,923 mylogger INFO ------------------------
+2025-02-06 14:56:39,925 mylogger INFO ScanFlag-->Yellow
+2025-02-06 14:56:39,925 mylogger INFO ------------------------

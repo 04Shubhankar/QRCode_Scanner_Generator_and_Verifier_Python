@@ -114,7 +114,7 @@ def update_scan_result(frame):
     label.pack()  # Make sure to pack the label
 
     # Schedule label update to "Scanner Ready" after 1 second
-    frame.after(1000, lambda: create_scanner_ready_label(frame))
+    frame.after(2000, lambda: create_scanner_ready_label(frame))
 
 
 def create_scanner_ready_label(frame):
