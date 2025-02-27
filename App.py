@@ -151,8 +151,8 @@ def scan_qr():
             if cam_frame.winfo_exists():  # Only destroy cam_frame if it exists
                 cam_frame.destroy()
             mylogger.logger("Camera stopped and resources released.")
-            stop_button.config(state="disabled")  # Disable the stop button after stopping the scan
-            submit_button.config(state="disabled")
+            #stop_button.config(state="disabled")  # Disable the stop button after stopping the scan
+            #submit_button.config(state="disabled")
 
         def start_qr_scanning():
             colname = colname_entry.get()
@@ -172,7 +172,7 @@ def scan_qr():
             qrscanner.start_scanning("T.E.C MBS2025", cam_frame)
 
             stop_button.config(state="normal")  # Enable the stop button after starting the scan
-            submit_button.config(state="disabled")
+            #submit_button.config(state="disabled")
 
 
         # Button to submit colname and start scanning
